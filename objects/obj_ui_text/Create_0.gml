@@ -6,9 +6,9 @@ subtitle = "The Last of the Wizards";
 
 prologue_array[0] = "Wizards are an ancient order, \nspanning back thousands of years.";
 prologue_array[1] = "They all died out long before our time, \nalthough no one truly knows what happened to them...";
-prologue_array[2] = "Except maybe Gary.";
-prologue_array[3] = "Meet Gary, the last of the wizards.";
-prologue_array[4] = "Come along as we go back to the year 532 A.D. \nto follow a day in the life of the last wizard,";
+prologue_array[2] = "Except maybe Gary. \nHe just might know something we haven't yet found.";
+prologue_array[3] = "Meet Gary, the last of all the wizards. \nHi Gary.";
+prologue_array[4] = "Come along as we go back in time \nto follow a day in the life of the last wizard,";
 prologue_array[5] = "and hopefully, we just might get a glimpse \nat how this noble class of magic wielders lived...";
 
 /// Counters init
@@ -18,7 +18,7 @@ cutoff = 0;
 
 done = false;
 
-y_pad_constant = 125;
+y_pad_constant = 150;
 increment = 1;
 current_message = 0;
 is_title = true;

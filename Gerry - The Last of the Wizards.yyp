@@ -101,8 +101,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_towers","path":"rooms/rm_towers/rm_towers.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_towers","path":"rooms/rm_towers/rm_towers.yy",},},
     {"roomId":{"name":"rm_survivors","path":"rooms/rm_survivors/rm_survivors.yy",},},
   ],
   "templateType":"game",
