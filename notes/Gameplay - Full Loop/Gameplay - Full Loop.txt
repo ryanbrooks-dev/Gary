@@ -1,0 +1,22 @@
+[ROOM] Menu
+	Game Start
+	Display Introduction Text
+[ROOM] Tower Defense
+	Place towers
+	Signal Enemy wave
+	Wave completes
+	Option to "scavenge for resources" between waves (maybe with a cooldown of every 3 waves?)
+Survival Minigame
+	Kill as many wizards as you can in the allotted time
+	Gain resources depending on which wizards you target
+	When the timer runs out you return to [ROOM] Tower Defense
+
+Win condition:
+	You survive until the last wave, which happens to have the second-last wizard included in the wave
+	Killing the mini-boss results in a winning game
+	
+Lose condition:
+	Mercenaries reach your tower and take you out -> DEFEAT.
+	Wizards somehow kill you during survival minigame -> DEFEAT. 
+
+

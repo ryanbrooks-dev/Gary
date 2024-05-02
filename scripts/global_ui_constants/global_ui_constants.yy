@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"global_ui_constants",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"global_ui_constants",
+  "parent":{
+    "name":"GUI",
+    "path":"folders/Scripts/GUI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"global_ui_helpers",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"global_ui_helpers",
+  "parent":{
+    "name":"GUI",
+    "path":"folders/Scripts/GUI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

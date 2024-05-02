@@ -1,0 +1,17 @@
+To use Nihilist font inside your project, follow these steps:
+
+1. Import spr_nihilist_font5x9_strip94.png (or any other) in your project as a sprite, 
+	be sure that sprite origins are x=0 and y=0;
+
+2. In Draw event of an object you want to use font in,
+	you have to add font from sprite and assign it to a variable using font_add_sprite();
+
+3. After that, you have to set this variable as a font using draw_set_font();
+
+Credit: Nihilist font is a custom font mostly used in games made by hyperboreanGames. 
+	By purchasing this font, you DON'T have to add the authors, or the font name in credits, 
+	but you can do it if you want.
+
+NOTE: When you load a font into GameMaker you must remember to remove it again (with font_delete()) 
+when no longer needed, otherwise there is risk of a memory leak which will slow down 
+and eventually crash your game.

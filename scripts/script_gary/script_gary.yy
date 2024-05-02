@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"script_gary",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_gary",
+  "parent":{
+    "name":"Entities",
+    "path":"folders/Scripts/Entities.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
