@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Imported Sprites",
-    "path":"folders/Sprites/Utilities & Assets/Imported Sprites.yy",
+    "name":"Gerry - The Last of the Wizards",
+    "path":"Gerry - The Last of the Wizards.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

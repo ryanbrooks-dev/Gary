@@ -40,12 +40,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"collision_mask",
-    "path":"sprites/collision_mask/collision_mask.yy",
+    "name":"spr_button_collision_mask",
+    "path":"sprites/spr_button_collision_mask/spr_button_collision_mask.yy",
   },
   "spriteMaskId":{
-    "name":"collision_mask",
-    "path":"sprites/collision_mask/collision_mask.yy",
+    "name":"spr_button_collision_mask",
+    "path":"sprites/spr_button_collision_mask/spr_button_collision_mask.yy",
   },
   "visible":false,
 }

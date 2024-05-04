@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Entities",
-    "path":"folders/Sprites/Entities.yy",
+    "name":"Imported Sprites",
+    "path":"folders/Sprites/Utilities & Assets/Imported Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
