@@ -10,8 +10,8 @@
   "name":"obj_main_menu_gary",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wizards",
-    "path":"folders/Objects/Entities/Wizards.yy",
+    "name":"Gary",
+    "path":"folders/Objects/Entities/Gary.yy",
   },
   "parentObjectId":null,
   "persistent":false,

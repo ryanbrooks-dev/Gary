@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Gerry - The Last of the Wizards",
-    "path":"Gerry - The Last of the Wizards.yyp",
+    "name":"Gary",
+    "path":"Gary.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

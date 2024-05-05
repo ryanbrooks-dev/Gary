@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
   "%Name":"obj_gray_tower",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_gray_tower",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_tower_children",
-    "path":"folders/Objects/Entities/Towers/obj_tower_children.yy",
+    "name":"Actual Towers",
+    "path":"folders/Objects/Entities/Towers/Actual Towers.yy",
   },
   "parentObjectId":{
-    "name":"obj_tower",
-    "path":"objects/obj_tower/obj_tower.yy",
+    "name":"obj_towers_parent",
+    "path":"objects/obj_towers_parent/obj_towers_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

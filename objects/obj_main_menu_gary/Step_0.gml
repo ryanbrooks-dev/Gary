@@ -24,12 +24,12 @@ if(room == rm_menu) {
 				self.y +=3;
 			}
 		} 
-	} else if (!obj_ui_text.is_gary_time) {
+	} else if (!obj_menu_controller.is_gary_time) {
 		self.x = start_dest2_x;
 		self.y = start_dest2_y;
 		self.speed = 0;
 	}
-	if(obj_ui_text.is_gary_time){
+	if(obj_menu_controller.is_gary_time){
 		if self.x > end_dest2_x {
 			self.image_speed = 3;
 			x = x-3;	

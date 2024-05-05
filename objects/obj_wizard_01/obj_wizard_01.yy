@@ -12,7 +12,10 @@
     "name":"Wizards",
     "path":"folders/Objects/Entities/Wizards.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemies_parent",
+    "path":"objects/obj_enemies_parent/obj_enemies_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

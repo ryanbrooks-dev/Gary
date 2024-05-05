@@ -14,8 +14,8 @@
     "path":"folders/Objects/Interfaces/obj_button_children.yy",
   },
   "parentObjectId":{
-    "name":"obj_button",
-    "path":"objects/obj_button/obj_button.yy",
+    "name":"obj_menu_buttons_parent",
+    "path":"objects/obj_menu_buttons_parent/obj_menu_buttons_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

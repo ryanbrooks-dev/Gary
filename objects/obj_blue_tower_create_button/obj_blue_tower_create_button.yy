@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
   "%Name":"obj_blue_tower_create_button",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_blue_tower_create_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_tower_create_button_children",
-    "path":"folders/Objects/Interfaces/obj_tower_create_button_children.yy",
+    "name":"Tower Create Buttons",
+    "path":"folders/Objects/Entities/Towers/Tower Create Buttons.yy",
   },
   "parentObjectId":{
-    "name":"obj_tower_create_button",
-    "path":"objects/obj_tower_create_button/obj_tower_create_button.yy",
+    "name":"obj_tower_button_parent",
+    "path":"objects/obj_tower_button_parent/obj_tower_button_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_icon_b_tower",
-    "path":"sprites/spr_icon_b_tower/spr_icon_b_tower.yy",
+    "name":"btn_blue_tower",
+    "path":"sprites/btn_blue_tower/btn_blue_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,

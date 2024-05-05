@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_blue_tower",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":91,
   "bbox_left":0,
   "bbox_right":63,
-  "bbox_top":0,
+  "bbox_top":27,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -24,7 +24,7 @@
   ],
   "name":"spr_blue_tower",
   "nineSlice":null,
-  "origin":6,
+  "origin":9,
   "parent":{
     "name":"Towers",
     "path":"folders/Sprites/Entities/Towers.yy",
@@ -76,8 +76,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":92,
+    "xorigin":32,
+    "yorigin":60,
   },
   "swatchColours":[
     4278190335,4290360760,4287136134,4284834660,4283384901,4283971642,4280492321,4282526517,4285154115,4291461195,
