@@ -1,4 +1,4 @@
-if(instance_exists(obj_gary)) {
+if(instance_exists(obj_gary) and !obj_level_controller.play_intro_scene) {
 	if(obj_gary.ready_in_position and instance_exists(obj_towers_parent)){
 		with(obj_towers_parent){
 			if(other.selected){

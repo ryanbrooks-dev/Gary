@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_projectile",
+  "%Name":"spr_red_projectile",
   "bboxMode":0,
   "bbox_bottom":15,
   "bbox_left":0,
@@ -19,10 +19,9 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0dccb87d-8c2f-4d9a-b684-d0f4fc4e82b9","blendMode":1,"displayName":"Layer 1","isLocked":false,"name":"0dccb87d-8c2f-4d9a-b684-d0f4fc4e82b9","opacity":10.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"731f5fe8-60ee-4a32-af28-84d24b49fb71","blendMode":0,"displayName":"default","isLocked":false,"name":"731f5fe8-60ee-4a32-af28-84d24b49fb71","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_projectile",
+  "name":"spr_red_projectile",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_projectile",
+    "%Name":"spr_red_projectile",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,9 +57,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_projectile",
+    "name":"spr_red_projectile",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1c2b517-6afb-4c27-9b3f-1d850e43fe6b","path":"sprites/spr_projectile/spr_projectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1c2b517-6afb-4c27-9b3f-1d850e43fe6b","path":"sprites/spr_red_projectile/spr_red_projectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1a873f0c-1cd9-41f8-8f20-f4d30be1939c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

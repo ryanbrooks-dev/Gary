@@ -22,6 +22,10 @@ if !variable_global_exists("prologue_font") {
     //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
 	global.prologue_font = fnt_antiquity_prologue;
 }
+if !variable_global_exists("dialogue_font") {
+    //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
+	global.dialogue_font = fnt_dialogue_text;
+}
 if !variable_global_exists("larger_text_font") {
     global.larger_text_font = font_add_sprite(spr_nihilist_font25x45,ord("!"),false,0);
 }

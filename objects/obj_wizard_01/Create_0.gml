@@ -8,5 +8,5 @@ if(room == rm_towers and instance_exists(obj_level_controller)){
 	hp = round(obj_level_controller.wave/2);
 	mhp = hp;
 }
-spd = 4;
-color = c_lime;
+spd = 1;
+color = global.c_my_blue;

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile",
+  "%Name":"obj_blue_projectile",
   "eventList":[],
   "managed":true,
-  "name":"obj_projectile",
+  "name":"obj_blue_projectile",
   "overriddenProperties":[],
   "parent":{
     "name":"Orbs",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_projectile",
-    "path":"sprites/spr_projectile/spr_projectile.yy",
+    "name":"spr_blue_projectile",
+    "path":"sprites/spr_blue_projectile/spr_blue_projectile.yy",
   },
   "spriteMaskId":null,
   "visible":true,

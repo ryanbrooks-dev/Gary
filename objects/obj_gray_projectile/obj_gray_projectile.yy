@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_orb",
+  "%Name":"obj_gray_projectile",
   "eventList":[],
   "managed":true,
-  "name":"obj_orb",
+  "name":"obj_gray_projectile",
   "overriddenProperties":[],
   "parent":{
     "name":"Orbs",
     "path":"folders/Objects/Entities/Orbs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_attacks_parent",
+    "path":"objects/obj_attacks_parent/obj_attacks_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_gray_projectile",
+    "path":"sprites/spr_gray_projectile/spr_gray_projectile.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

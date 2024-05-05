@@ -37,6 +37,13 @@ function set_tower_ui_font() {
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 }
+function set_dialogue_font() {
+	draw_set_font(global.dialogue_font);
+	draw_set_color(global.c_my_offwhite);
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_bottom);
+}
+
 
 function reset_font() {
 	draw_set_font(global.text_font);

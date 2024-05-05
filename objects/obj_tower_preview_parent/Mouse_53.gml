@@ -6,8 +6,8 @@ if(!place_meeting(x,y,obj_towers_parent) && !place_meeting(x,y,obj_prevent_tower
 			obj_level_controller.money -= cost;
 			instance_create_layer(x,y,"Instances",tower);
 		} else {
-			instance_destroy();
+			instance_destroy(self);
 		}
 	}
-	instance_destroy();
+	instance_destroy(self);
 }

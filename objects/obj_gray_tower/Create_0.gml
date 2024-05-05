@@ -9,3 +9,4 @@ frequency = 0.6;
 damage = 0.8;
 cost = 20;
 upgradecost = cost;
+attack_type = obj_gray_projectile;
