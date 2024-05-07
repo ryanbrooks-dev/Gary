@@ -6,8 +6,8 @@
   "name":"obj_blue_projectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Orbs",
-    "path":"folders/Objects/Entities/Orbs.yy",
+    "name":"Projectiles and Effects",
+    "path":"folders/Objects/Entities/Projectiles and Effects.yy",
   },
   "parentObjectId":{
     "name":"obj_attacks_parent",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_blue_projectile",
-    "path":"sprites/spr_blue_projectile/spr_blue_projectile.yy",
+    "name":"spr_attack_frostbolt",
+    "path":"sprites/spr_attack_frostbolt/spr_attack_frostbolt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

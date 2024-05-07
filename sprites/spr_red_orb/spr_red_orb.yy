@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Orbs",
-    "path":"folders/Sprites/Entities/Orbs.yy",
+    "name":"Icons and Effects",
+    "path":"folders/Sprites/Entities/Icons and Effects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

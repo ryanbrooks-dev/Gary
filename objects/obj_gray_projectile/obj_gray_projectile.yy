@@ -6,8 +6,8 @@
   "name":"obj_gray_projectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Orbs",
-    "path":"folders/Objects/Entities/Orbs.yy",
+    "name":"Projectiles and Effects",
+    "path":"folders/Objects/Entities/Projectiles and Effects.yy",
   },
   "parentObjectId":{
     "name":"obj_attacks_parent",

@@ -1,56 +1,28 @@
 /// @description Draw UI text to 
+if(is_title) {
+	// Title
+	set_title_font();
+	draw_text_color(floor(view_wport[0]/2)+2-x_buffer, y+3, title,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
+	draw_text(floor(view_wport[0]/2)-x_buffer, y, string(title));
 
-if(room = rm_menu) {
-	if(is_title) {
-		// Title
-		set_title_font();
-		draw_text_color((view_wport[0]/2)+2, y+4, title,global.c_my_dark_red,global.c_my_dark_red,global.c_my_dark_gray,global.c_my_dark_gray,1)
-		draw_text(view_wport[0]/2, y, title);
-
-		// Subtitle
-		set_subtitle_font();
-		draw_text_color((view_wport[0]/2)+2, y+146, subtitle,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_gray,global.c_my_dark_gray,1)
-		draw_text(view_wport[0]/2, y+144, subtitle);
-	} else {
+	// Subtitle
+	set_subtitle_font();
+	draw_text_color(floor(view_wport[0]/2)+2-x_buffer, y+146, subtitle,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_gray,global.c_my_dark_gray,1)
+	draw_text(floor(view_wport[0]/2)-x_buffer, y+144, subtitle);
+} 
+else if(is_prologue) {
+	
+	if(latest_section < array_length(prologue_array)) {
 		set_prologue_font();
-		var _text_x = 220;
-		var _text_y = 180;
-		if(!section_4_ready) {
-			draw_text_color(_text_x-2, _text_y-2, prologue_array[0],global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,1)
-			draw_text_color(_text_x+3, _text_y+3, prologue_array[0],global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
-			draw_text(_text_x,_text_y, prologue_array[0]);
-			if(self.section_2_ready) {
-				var _text_padding = y_pad_constant;
-				draw_text_color(_text_x-2, _text_y-2+_text_padding, prologue_array[1],global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,1)
-				draw_text_color(_text_x+3, _text_y+3+_text_padding, prologue_array[1],global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
-				draw_text(_text_x,_text_y+_text_padding, prologue_array[1]);
+		var _text_x = 160;
+		var _text_y = 120;
+		var _prev_s_height = 0;
+		for(var _i = 0; _i <= self.latest_section; _i = _i+1) {
+			var _temp_pad = 0;
+			if(_i > 0) _temp_pad = y_pad_constant * _i;
+			//draw_rectangle_color(_text_x-16,_text_y-16+_temp_pad,_text_x+1024+16,_text_y+_temp_pad+_s_height+16,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,false);
+			draw_text_ext(_text_x,_text_y+_temp_pad+_prev_s_height,prologue_array[_i],40,960);
+			_prev_s_height = string_height_ext(prologue_array[_i],40, 960)
 			}
-			if(self.section_3_ready) {
-				var _text_padding = y_pad_constant;
-				draw_text_color(_text_x-2, _text_y-2+(_text_padding*2), prologue_array[2],global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,1)
-				draw_text_color(_text_x+3, _text_y+3+(_text_padding*2), prologue_array[2],global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
-				draw_text(_text_x,_text_y+(_text_padding*2), prologue_array[2]);
-			}
-		} else {
-			if(self.section_4_ready) {
-				var _text_padding = y_pad_constant;
-				is_gary_time = true;
-				draw_text_color(_text_x-2, _text_y-2, prologue_array[3],global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,1)
-				draw_text_color(_text_x+3, _text_y+3, prologue_array[3],global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
-				draw_text(_text_x,_text_y, prologue_array[3]);
-			}
-			if(self.section_5_ready) {
-				var _text_padding = y_pad_constant;
-				draw_text_color(_text_x-2, _text_y-2+(_text_padding), prologue_array[4],global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,1)
-				draw_text_color(_text_x+3, _text_y+3+_text_padding, prologue_array[4],global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
-				draw_text(_text_x,_text_y+_text_padding, prologue_array[4]);
-			}
-			if(self.section_6_ready) {
-				var _text_padding = y_pad_constant;
-				draw_text_color(_text_x-2, _text_y-2+(_text_padding*2), prologue_array[5],global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,global.c_my_dark_blue,1)
-				draw_text_color(_text_x+3, _text_y+3+(_text_padding*2), prologue_array[5],global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,global.c_my_dark_gray,1)
-				draw_text(_text_x,_text_y+(_text_padding*2), prologue_array[5]);
-			}
-		}
-	}
+	} else room_goto_next();
 }

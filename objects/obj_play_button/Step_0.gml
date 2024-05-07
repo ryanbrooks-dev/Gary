@@ -1,6 +1,8 @@
-/// @description Check if other button pressed, if so then destroy self
-if(obj_menu_buttons_parent.button_clicked == true) {
-	if(self.image_index == 0) {
-		instance_destroy(self);
-	}
+///// @description Check if other button pressed, if so then destroy self
+if(position_meeting(self.x,self.y,obj_main_menu_gary)) {
+	alarm[1] = 30*2;
+}
+
+if(image_index == 18) {
+ self.image_speed = 0;	
 }

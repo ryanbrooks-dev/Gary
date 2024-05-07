@@ -12,11 +12,11 @@
 */
 if !variable_global_exists("title_font") {
     //global.title_font = font_add_sprite(spr_nihilist_font25x45,ord("!"),false,2);
-	global.title_font = fnt_antiquity_title;
+	global.title_font = fnt_title;
 }
 if !variable_global_exists("subtitle_font") {
     //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
-	global.subtitle_font = fnt_antiquity_subtitle;
+	global.subtitle_font = fnt_subtitle;
 }
 if !variable_global_exists("prologue_font") {
     //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
@@ -72,4 +72,7 @@ if !variable_global_exists("c_my_offwhite") {
 }
 if !variable_global_exists("c_my_pale_yellow") {
     global.c_my_pale_yellow = make_color_rgb(237,225,158);
+}
+if !variable_global_exists("c_my_saturated_green") {
+    global.c_my_saturated_green = make_color_rgb(138,176,96);
 }

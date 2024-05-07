@@ -6,8 +6,8 @@
   "name":"obj_red_projectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Orbs",
-    "path":"folders/Objects/Entities/Orbs.yy",
+    "name":"Projectiles and Effects",
+    "path":"folders/Objects/Entities/Projectiles and Effects.yy",
   },
   "parentObjectId":{
     "name":"obj_attacks_parent",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_red_projectile",
-    "path":"sprites/spr_red_projectile/spr_red_projectile.yy",
+    "name":"spr_attack_firebolt",
+    "path":"sprites/spr_attack_firebolt/spr_attack_firebolt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_orb_children",
-    "path":"folders/Objects/Entities/Orbs/obj_orb_children.yy",
+    "path":"folders/Objects/Entities/Gems/obj_orb_children.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gray_orb",
-    "path":"sprites/spr_gray_orb/spr_gray_orb.yy",
+    "name":"spr_gray_orb64",
+    "path":"sprites/spr_gray_orb64/spr_gray_orb64.yy",
   },
   "spriteMaskId":null,
   "visible":true,

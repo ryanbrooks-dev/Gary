@@ -1,4 +1,4 @@
-obj_level_controller.money += money;
+//obj_level_controller.money += money;
 
 // Blood part
 var _r = irandom_range(2,4);

@@ -6,7 +6,7 @@ event_inherited();
 
 range = 150;
 frequency = 1;
-damage = 1;
-cost = 50;
+damage = 1.5;
+cost = 12;
 upgradecost = cost;
 attack_type = obj_blue_projectile;

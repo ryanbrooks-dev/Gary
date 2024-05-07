@@ -9,7 +9,7 @@ function set_title_font() {
 /// Set subtitle font
 function set_subtitle_font() {
 	draw_set_font(global.subtitle_font);
-	draw_set_color(global.c_my_blue);
+	draw_set_color(global.c_my_offwhite);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 }
@@ -50,4 +50,8 @@ function reset_font() {
 	draw_set_color(global.c_my_offwhite);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
+}
+
+if !variable_global_exists("play_game") {
+    global.play_game = false;
 }
