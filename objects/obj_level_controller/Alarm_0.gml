@@ -2,6 +2,7 @@
 // You can write your code in this editor
 show_debug_message("SOUNDING ATTACK ALARM");
 if(number_of_enemies > 0){
+	obj_level_controller.room_state = GAME_STATE.ATTACK_STARTED;
 	show_debug_message("SENDING {0} ENEMIES", number_of_enemies);
 	if(number_of_enemies % 5 == 1 && wave != 1){
 		//number_of_enemies = 1; // for miniboss
@@ -27,8 +28,9 @@ if(number_of_enemies > 0){
 	}
 	number_of_enemies -= 1;
 	alarm[0] = delay; // Reset the spawn timer
-	alarm[2] = 60*5;
 }
 else {
-	room_state = GAME_STATE.PREPARING;
+	if(instance_number(obj_enemies_parent) <2 and room_state == GAME_STATE.ATTACK_STARTED) {
+		room_state = GAME_STATE.PREPARING;
+	}	
 }

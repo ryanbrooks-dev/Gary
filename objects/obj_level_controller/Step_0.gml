@@ -1,6 +1,6 @@
 if(new_wave_arriving = true){
 	new_wave_arriving = false;
-	alarm[2] = 30;
+	alarm[2] = 60*6;
 	alarm[0] = delay;
 }
 

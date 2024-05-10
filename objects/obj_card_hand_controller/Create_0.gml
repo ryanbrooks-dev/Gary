@@ -21,6 +21,7 @@ state = CARD_HAND_STATES.WAIT;
 
 card_picked = obj_card_parent;
 
+new_card_round = true;
 image_index_checked = false;
 displaying_cards = false;
 card = obj_card_parent;

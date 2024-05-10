@@ -3,15 +3,16 @@
 if(state == CARD_HAND_STATES.PLAYER_TURN and displaying_cards) {
 }
 else if(obj_level_controller.room_state == GAME_STATE.PREPARING or obj_level_controller.room_state == GAME_STATE.TUTORIAL) {
-	//layer_set_visible("Cards",true);
 	switch(state) {
 		case CARD_HAND_STATES.WAIT: {
-			state = CARD_HAND_STATES.INIT;
+			if(new_card_round == true) {
+				state = CARD_HAND_STATES.INIT;
+			}
 			break;
 		}
 		case CARD_HAND_STATES.INIT: {
 			show_debug_message("current state = {0}", state);
-			//layer_set_visible("Cards",true);
+			layer_set_visible("Cards",true);
 			// Skip dealing if already have enough cards
 			if(array_length(cards_in_hand) >= max_cards_in_hand) {
 				state = CARD_HAND_STATES.PLAYER_TURN;
@@ -61,7 +62,9 @@ else if(obj_level_controller.room_state == GAME_STATE.PREPARING or obj_level_con
 		}
 		case CARD_HAND_STATES.DISCARD: {
 			show_debug_message("current state = {0}", state);
+			show_debug_message("Hiding cards");
 			displaying_cards = false;
+			new_card_round = false;
 			layer_set_visible("Cards",false);
 			state = CARD_HAND_STATES.WAIT;
 			break;
@@ -72,9 +75,13 @@ else if(obj_level_controller.room_state == GAME_STATE.PREPARING or obj_level_con
 if(state == CARD_HAND_STATES.PLAYER_TURN and displaying_cards == false) {
 	alarm[0] = 60;
 	show_debug_message("resetting alarm for card display");
+	show_debug_message("Showing cards");
 	// layer_set_visible("Cards", true);
 	displaying_cards = true;
-} 
+}
+if(obj_level_controller.room_state == GAME_STATE.ATTACK_STARTED) {
+	new_card_round = true;	
+}
 
 //// Card presentation logic 
 //if(!image_index_checked) {
