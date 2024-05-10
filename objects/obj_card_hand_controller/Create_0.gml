@@ -10,6 +10,13 @@ enum CARD_HAND_STATES {
 	DISCARD
 }
 
+card = {
+	name,
+	cost,
+	gem_type,
+	priority,
+}
+
 state = CARD_HAND_STATES.WAIT;
 
 card_picked = obj_card_parent;

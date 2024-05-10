@@ -1,6 +1,6 @@
 /// @description (Mostly) scoped to text or rectangle draws to GUI
-ui_height = room_height;
-ui_width = room_width;
+ui_height = camera_get_view_height(view_camera[0]);
+ui_width = camera_get_view_width(view_camera[0]);
 ui_start_x = ui_width-171;
 obj_start_x = ui_width-72;
 obj_height = ui_height;

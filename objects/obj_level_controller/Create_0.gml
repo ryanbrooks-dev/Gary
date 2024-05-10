@@ -1,12 +1,9 @@
 /// @description Manage Towers level states
-/*	
-	
 
-*/
-base_width = room_width;
-base_height = room_height;
-width = base_width;
-height = base_height;
+//base_width = room_width;
+//base_height = room_height;
+//width = base_width;
+//height = base_height;
 
 //base_size = 512;
 //width = browser_width;
@@ -25,7 +22,7 @@ debug_state_change = room_state;
 
  // SET DIRECTLY TO NEXT STATE FOR
 // FASTER DEBUGGING
-room_state = GAME_STATE.TUTORIAL;
+room_state = GAME_STATE.INTRO;
 intro_complete = false;
 debug_state_change = room_state;
 

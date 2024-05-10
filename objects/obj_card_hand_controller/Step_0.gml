@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(state == CARD_HAND_STATES.PLAYER_TURN and displaying_cards) {
-	//show_debug_message("Skipping step for card hand controller");
 }
 else if(obj_level_controller.room_state == GAME_STATE.PREPARING or obj_level_controller.room_state == GAME_STATE.TUTORIAL) {
 	//layer_set_visible("Cards",true);
@@ -62,8 +61,9 @@ else if(obj_level_controller.room_state == GAME_STATE.PREPARING or obj_level_con
 		}
 		case CARD_HAND_STATES.DISCARD: {
 			show_debug_message("current state = {0}", state);
-			//displaying_cards = false;
-			//layer_set_visible("Cards",false);
+			displaying_cards = false;
+			layer_set_visible("Cards",false);
+			state = CARD_HAND_STATES.WAIT;
 			break;
 		}	
 	}

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-card_selected = true;
-
-
+if(!checked_budget) {
+	checked_budget = true;
+	alarm[0] = 60;
+}

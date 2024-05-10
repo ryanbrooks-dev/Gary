@@ -27,6 +27,7 @@ if(number_of_enemies > 0){
 	}
 	number_of_enemies -= 1;
 	alarm[0] = delay; // Reset the spawn timer
+	alarm[2] = 60*5;
 }
 else {
 	room_state = GAME_STATE.PREPARING;

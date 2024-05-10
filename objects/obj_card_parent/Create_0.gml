@@ -14,10 +14,11 @@ card = {
 pointerlength = sprite_get_height(spr_pointer);
 card_selected = false;
 have_budget = false;
+checked_budget = false;
 
 name = "undefined"
-gem_cost = struct_get(card, cost);
-gem_type = struct_get(card, gem_type);
+cost = 0;
+gem_type = 0;
 tower_id = 0;
 card_selected = false;
 spd = 4;
@@ -25,4 +26,4 @@ spd = 4;
 image_xscale = 0.5;
 image_yscale = 0.5;
 
-alarm[0] = 60*5;
+alarm[0] = 60*2;
