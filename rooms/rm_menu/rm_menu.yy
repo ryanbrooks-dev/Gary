@@ -6,9 +6,9 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_2443F4F0","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"play_button_id","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_29A9421A","path":"rooms/rm_menu/rm_menu.yy",},
-    {"name":"inst_2443F4F0","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"gary_instance","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd":false,

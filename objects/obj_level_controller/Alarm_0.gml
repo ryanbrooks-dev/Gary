@@ -1,17 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(monsters > 0){
-	// Every fifth wave a boss monster appears, the other times basic, fast and tanky are supposed to be mixed
-	if(wave % 5 == 1 && wave != 1){
-		monsters = 1;
+show_debug_message("SOUNDING ATTACK ALARM");
+if(number_of_enemies > 0){
+	show_debug_message("SENDING {0} ENEMIES", number_of_enemies);
+	if(number_of_enemies % 5 == 1 && wave != 1){
+		//number_of_enemies = 1; // for miniboss
+		show_debug_message("Creating instance of obj_wizard_01");
 		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_01);
-	} else if(wave % 3 == 0 || wave == 1){
-		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_01);
-	} else if(wave % 3 == 1 || wave == 2){
-		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_01);
-	} else if(wave % 3 == 2 || wave == 3){
-		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_01);
+	} else if(number_of_enemies % 3 == 0){
+		show_debug_message("Creating instance of obj_wizard_02");
+		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_02);
+	} else if(number_of_enemies % 3 == 1){
+		show_debug_message("Creating instance of obj_wizard_03");
+		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_03);
+	} else if(number_of_enemies % 3 == 2){
+		show_debug_message("Creating instance of obj_wizard_04");
+		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_04);
 	} else {
+		show_debug_message("Creating instance of obj_wizard_01");
 		enemy = instance_create_layer(path_get_point_x(global.path,0),path_get_point_y(global.path,0),"Instances",obj_wizard_01);
 	}
 	
@@ -19,6 +25,9 @@ if(monsters > 0){
 	with(enemy){
 		path_start(global.path, spd, path_action_stop, true);
 	}
-	monsters -= 1;
+	number_of_enemies -= 1;
 	alarm[0] = delay; // Reset the spawn timer
+}
+else {
+	room_state = GAME_STATE.PREPARING;
 }

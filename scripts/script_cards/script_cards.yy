@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"script_cards",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_cards",
+  "parent":{
+    "name":"Entities",
+    "path":"folders/Scripts/Entities.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

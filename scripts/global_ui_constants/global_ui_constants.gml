@@ -11,35 +11,25 @@
 		
 */
 if !variable_global_exists("title_font") {
-    //global.title_font = font_add_sprite(spr_nihilist_font25x45,ord("!"),false,2);
 	global.title_font = fnt_title;
 }
 if !variable_global_exists("subtitle_font") {
-    //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
 	global.subtitle_font = fnt_subtitle;
 }
 if !variable_global_exists("prologue_font") {
-    //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
-	global.prologue_font = fnt_antiquity_prologue;
+	global.prologue_font = fnt_prologue;
 }
 if !variable_global_exists("dialogue_font") {
-    //global.subtitle_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),true,2);
 	global.dialogue_font = fnt_dialogue_text;
 }
 if !variable_global_exists("larger_text_font") {
-    global.larger_text_font = font_add_sprite(spr_nihilist_font25x45,ord("!"),false,0);
+	global.larger_text_font = fnt_prologue;
 }
 if !variable_global_exists("large_text_font") {
-    global.large_text_font = font_add_sprite(spr_nihilist_font20x36,ord("!"),false,0);
+    global.large_text_font = fnt_ui_text;
 }
 if !variable_global_exists("text_font") {
-    global.text_font = font_add_sprite(spr_nihilist_font15x27,ord("!"),false,0);
-}
-if !variable_global_exists("small_text_font") {
-    global.small_text_font = font_add_sprite(spr_nihilist_font10x18,ord("!"),false,0);
-}
-if !variable_global_exists("tiny_text_font") {
-    global.tiny_text_font = font_add_sprite(spr_nihilist_font5x9,ord("!"),false,0);
+    global.text_font = fnt_ui_text_small
 }
 
 /*
@@ -75,4 +65,7 @@ if !variable_global_exists("c_my_pale_yellow") {
 }
 if !variable_global_exists("c_my_saturated_green") {
     global.c_my_saturated_green = make_color_rgb(138,176,96);
+}
+if !variable_global_exists("c_my_dark_green") {
+    global.c_my_dark_green = make_color_rgb(45,51,42);
 }

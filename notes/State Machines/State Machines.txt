@@ -1,0 +1,16 @@
+GAME STATES
+
+Menu + Prologue states:
+	- Title loaded
+		- 
+	- Button clicked
+		- 
+	- gary attacks
+		- 
+	- prologue starts
+		- 
+	- gary appears
+		-
+	- gotonext(room)
+	
+

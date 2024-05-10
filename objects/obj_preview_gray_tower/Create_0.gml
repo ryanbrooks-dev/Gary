@@ -5,5 +5,5 @@
 event_inherited();
 
 tower = obj_gray_tower;
-cost = 20;
+cost = obj_money_controller.tower_costs.gray;
 range = 150;

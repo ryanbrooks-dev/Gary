@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tileset_stone",
-    "path":"sprites/spr_tileset_stone/spr_tileset_stone.yy",
+    "name":"spr_tileset_grass",
+    "path":"sprites/spr_tileset_grass/spr_tileset_grass.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

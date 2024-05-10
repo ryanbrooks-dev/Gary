@@ -7,11 +7,11 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Projectiles and Effects",
-    "path":"folders/Objects/Entities/Projectiles and Effects.yy",
+    "path":"folders/Objects/Interfaces/Projectiles and Effects.yy",
   },
   "parentObjectId":{
-    "name":"obj_attacks_parent",
-    "path":"objects/obj_attacks_parent/obj_attacks_parent.yy",
+    "name":"obj_attack_parent",
+    "path":"objects/obj_attack_parent/obj_attack_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

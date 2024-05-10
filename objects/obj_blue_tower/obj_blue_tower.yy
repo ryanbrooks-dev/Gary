@@ -12,8 +12,8 @@
     "path":"folders/Objects/Entities/Towers/Actual Towers.yy",
   },
   "parentObjectId":{
-    "name":"obj_towers_parent",
-    "path":"objects/obj_towers_parent/obj_towers_parent.yy",
+    "name":"obj_tower_parent",
+    "path":"objects/obj_tower_parent/obj_tower_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

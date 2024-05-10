@@ -1,6 +1,0 @@
-Still to do: 
-
-
-Add projectiles/attacks for each tower
-Add ability to upgrade towers?
-Add orbs dropped by wizards

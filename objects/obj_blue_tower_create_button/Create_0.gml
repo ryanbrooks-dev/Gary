@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
-
-cost = 50;
+tower_cost = obj_money_controller.tower_costs.blue;
 preview = obj_preview_blue_tower;
+currency = spr_gemstone_blue;

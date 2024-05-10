@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
-
 preview = obj_preview_green_tower;
-cost = 20;
+tower_cost = obj_money_controller.tower_costs.green;
+currency = spr_gemstone_green;

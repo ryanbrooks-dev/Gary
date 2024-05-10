@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_card_to_hand",
+  "closed":false,
+  "kind":1,
+  "name":"pth_card_to_hand",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":672.0,"y":-32.0,},
+    {"speed":100.0,"x":608.0,"y":160.0,},
+    {"speed":100.0,"x":512.0,"y":416.0,},
+    {"speed":100.0,"x":608.0,"y":544.0,},
+    {"speed":100.0,"x":736.0,"y":512.0,},
+    {"speed":100.0,"x":736.0,"y":288.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

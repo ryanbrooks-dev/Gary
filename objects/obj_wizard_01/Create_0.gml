@@ -3,5 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-
-death_token = obj_gem_blue;
+hp = 20;
+speed = 4;
+death_token = obj_gem_gray;

@@ -1,26 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = 0.5;
+self.speed = 0.5;
 prev_x = x;
 prev_y = y;
 padding = 24;
 initial_delay = 90;
 
 dialogue = [
-"This is the LAST. TIME. ",
-"Enough is enough, Gary!!",
-"You can't host poker night, \nif you're just going to use magic to CHEAT.",
-"You may be the most powerful wizard in town, FINE.",
-"But it doesn't mean that you can grift us with your superior magic",
-"Poker night is SACRED. You've crossed a line.",
-"And one more thing, what kind of maniac builds a driveway this long?!?",
-"I'VE HAD ENOUGH. I'm telling the whole town.",
-"I'll be back, and then you'll be sorry!!",
-"You know what? I'm sure this way must be faster.",
-"GOODBYE."
+"GARY! WHAT HAVE YOU DONE GARY?!?",
+"WHAT'S HAPPENING TO US???",
+"Guys! I think he must've finally cracked it! He decoded the forbidden tome!",
+"THAT BOOK WILL ONLY BRING DARKNESS, GARY.",
+"The one that promises to reveal your core strengths?!? HARNESS THEM AS RAW POWER???",
+"When will you learn?? That your actions have CONSEQUENCES!",
+"If anything happens to us here today, the elders will know. So you'd better prepare for a fight, Gary!",
+"You may have ruined us all....",
+"I hope it was.... worth..... it......"
 ];
-dialogue_delay = 6;
+dialogue_delay = 8;
 dialogue_step = 0;
 path_points = path_get_number(pth_intro_scene);
 
-path = path_start(pth_intro_scene, speed, path_action_stop, false);
+path = path_start(pth_intro_scene, self.speed, path_action_stop, true);

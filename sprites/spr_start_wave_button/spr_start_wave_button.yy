@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_start_wave_button",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":29,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":126,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,20 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"741c19ab-a8ae-4fd8-a2ff-a0d0f5feb591","name":"741c19ab-a8ae-4fd8-a2ff-a0d0f5feb591","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c9fd9be1-0607-497f-a444-4384d5815e95","name":"c9fd9be1-0607-497f-a444-4384d5815e95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d92342a1-5cd3-4cc7-9261-417fe02f24ca","name":"d92342a1-5cd3-4cc7-9261-417fe02f24ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":8,
   "gridY":8,
-  "height":32,
+  "height":30,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0c38886a-11c9-45a9-89ee-ce63ae0c2731","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0c38886a-11c9-45a9-89ee-ce63ae0c2731","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"cff3593e-41cf-4ced-8551-fc1b95648ab5","blendMode":0,"displayName":"default","isLocked":false,"name":"cff3593e-41cf-4ced-8551-fc1b95648ab5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8ada841a-3065-4fc0-9ef9-cced3fd31c69","blendMode":0,"displayName":"default","isLocked":false,"name":"8ada841a-3065-4fc0-9ef9-cced3fd31c69","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_start_wave_button",
   "nineSlice":null,
-  "origin":6,
+  "origin":9,
   "parent":{
     "name":"Buttons",
     "path":"folders/Sprites/Buttons.yy",
@@ -51,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,17 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"741c19ab-a8ae-4fd8-a2ff-a0d0f5feb591","path":"sprites/spr_start_wave_button/spr_start_wave_button.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"855e27e7-9826-4103-9078-193a9dfaee25","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9fd9be1-0607-497f-a444-4384d5815e95","path":"sprites/spr_start_wave_button/spr_start_wave_button.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"012e2902-99b4-4d6b-af02-e008a14cbc18","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d92342a1-5cd3-4cc7-9261-417fe02f24ca","path":"sprites/spr_start_wave_button/spr_start_wave_button.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f49e62ad-8bd7-4fc2-9c72-3b11e9ed7cdc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":32,
+    "xorigin":65,
+    "yorigin":14,
   },
   "swatchColours":[
     4278190335,4290360760,4287136134,4284834660,4283384901,4283971642,4280492321,4282526517,4285154115,4291461195,
@@ -100,5 +95,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":128,
 }
